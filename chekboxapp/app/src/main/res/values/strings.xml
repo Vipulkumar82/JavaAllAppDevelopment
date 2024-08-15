@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">chekboxapp</string>
+    <string name="order_food">Order food</string>
+    <string name="selected_food">Selected Food</string>
+    <string name="burger">Burger</string>
+    <string name="coffee">Coffee</string>
+    <string name="pizza">Pizza</string>
+    <string name="order_food_text">ORDER FOOD TEXT</string>
+    <string name="order_foods">Order Foods</string>
 </resources>

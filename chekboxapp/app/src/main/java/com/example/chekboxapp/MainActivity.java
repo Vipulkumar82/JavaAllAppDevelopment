@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.TextView;
+import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -46,10 +47,14 @@ public class MainActivity extends AppCompatActivity {
                     result.append("\nBurger 120Rs");
                     totalamount += 120;
                 }
-                result.append("\nTotal: " + totalamount + "Rs");
-                txt.setText(result);
+
+                // Append the total amount with a label
+                result.append("\n\nTotal Amount: ").append(totalamount).append("Rs");
+
+                txt.setText(result.toString());
             }
         });
 
     }
+
 }
